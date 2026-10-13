@@ -24,15 +24,3 @@ Each experiment includes **Aim, Algorithm, Program, Output, and Result**. Experi
 - **Experiments 8–10:** NS2 and NAM. These programs are Tcl scripts and run with `ns filename.tcl`.
 - Run commands from the relevant experiment folder. Hostnames, IP addresses, ports, and network output can vary between computers.
 
-## Output and source notes
-
-The record is based on the supplied lab documents and slides. Screenshots are taken from those materials. Added illustrative or expected outputs are labeled. Missing aims, algorithms, and results have been written to match each supplied program.
-
-The Python files passed syntax checks. Local checks covered HTTP responses, echo communication, chat broadcasting, file transfer, and ARP/RARP simulation. The NS2 scripts passed Tcl completeness checks, but NS2/NAM were unavailable for simulation runs.
-
-Experiment 11 retains the supplied title and program, with a note explaining that the program obtains local computer details rather than the configured DNS server’s identity.
-
-## References
-
-- [Python socket documentation](https://docs.python.org/3/library/socket.html)
-- [NS2 manual](https://www.isi.edu/websites/nsnam/ns/doc/ns_doc.pdf)
